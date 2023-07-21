@@ -1,0 +1,7 @@
+1,Gofret,7.0,3
+2,Chocolade,15.0,10
+3,Sandwich,30.0,10
+4,Biscuit,18.0,9
+5,Doritos,22.0,10
+6,Snickers,10.0,7
+7,Jelibon,10.0,10
