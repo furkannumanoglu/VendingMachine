@@ -9,5 +9,4 @@ public class Urun {
     public String description;
     public double price;
     public int quantity;
-
 }
