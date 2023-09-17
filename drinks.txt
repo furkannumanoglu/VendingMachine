@@ -1,8 +1,0 @@
-1,Water,3.0,0
-2,Kola,20.0,6
-3,Fanta,20.0,6
-4,Mineral Water,7.0,7
-5,Juice,10.0,4
-6,Ayran,10.0,9
-7,Redbull,25.0,0
-8,Lemonade,15.0,0

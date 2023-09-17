@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AdminPanel">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="17" y="78" width="776" height="343"/>
+    </constraints>
+    <properties>
+      <background color="-6762279"/>
+      <font name="Apple SD Gothic Neo" size="16" style="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bc2e1" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="0" column="1" row-span="9" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-791360"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e18c8" class="javax.swing.JButton" binding="stokGüncelleButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Update Stock"/>
+            </properties>
+          </component>
+          <component id="4b583" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Product ID:"/>
+            </properties>
+          </component>
+          <component id="63b88" class="javax.swing.JTextField" binding="idField">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="dcd3e" class="javax.swing.JLabel" binding="nameLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Product Name"/>
+            </properties>
+          </component>
+          <component id="ae046" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Product Price"/>
+            </properties>
+          </component>
+          <component id="b9328" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Product Stock"/>
+            </properties>
+          </component>
+          <component id="6129f" class="javax.swing.JTextField" binding="isimField">
+            <constraints>
+              <grid row="1" column="6" row-span="3" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="baca4" class="javax.swing.JButton" binding="ürünSilButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Delete Product"/>
+            </properties>
+          </component>
+          <component id="6069d" class="javax.swing.JButton" binding="isimDeğiştirButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="7" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Change Name"/>
+            </properties>
+          </component>
+          <component id="7a6b9" class="javax.swing.JButton" binding="fiyatGüncelleButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="Update Price"/>
+            </properties>
+          </component>
+          <component id="7060c" class="javax.swing.JTextField" binding="priceField">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="c47b5" class="javax.swing.JTextField" binding="stockField">
+            <constraints>
+              <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="b6b85" class="javax.swing.JButton" binding="yeniÜrünGirişiButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Apple SD Gothic Neo" size="16" style="0"/>
+              <text value="New Product Entry"/>
+            </properties>
+          </component>
+          <component id="8509a" class="javax.swing.JTextArea" binding="infoArea">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="8" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="JetBrains Mono" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="c58ab" class="javax.swing.JButton" binding="clearButton">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Clear Infos"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="8595c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Apple SD Gothic Neo" size="16" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3d39f" class="javax.swing.JButton" binding="logOutButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5686889"/>
+          <font name="Apple SD Gothic Neo" size="16" style="0"/>
+          <hideActionText value="false"/>
+          <text value="Log Out"/>
+        </properties>
+      </component>
+      <component id="4e804" class="javax.swing.JComboBox" binding="menuChoiceButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Apple SD Gothic Neo" size="16" style="0"/>
+        </properties>
+      </component>
+      <component id="76620" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="user.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="e479a">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="13306" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="885ea" class="javax.swing.JButton" binding="superAdminButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Personal Info System"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

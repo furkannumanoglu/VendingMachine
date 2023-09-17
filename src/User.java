@@ -1,25 +1,22 @@
 import java.util.ArrayList;
 
 public class User {
-    public static double moneyAmount;
     public ArrayList<Urun> choicesList;
-    public String userName;
+    private String userName;
     private String password;
     private String ccNo;
 
-    public User(double money){
-        moneyAmount = money;
+    public User(String userName, String password){
+
         choicesList = new ArrayList<>();
-        userName = "kullanıcı";
+        this.userName = userName;
+        this.password = password;
 
     }
-
-
-
-
-
-
-
-
-
+    public String getUserName() {
+        return userName;
+    }
+    public ArrayList<Urun> getChoicesList() {
+        return choicesList;
+    }
 }
